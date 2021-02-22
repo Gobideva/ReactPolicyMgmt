@@ -1,0 +1,30 @@
+.NavigationList {
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .NavigationList {
+        margin: 0;
+        display: flex;
+        height: 100%;
+        width: auto;
+        align-items: center;
+    }
+    
+    .NavigationList a {
+        color: white;
+        height: 100%;
+        padding: 16px 10px;
+        box-sizing: border-box;
+        border-bottom: 4px solid transparent;
+    }
+    
+    .NavigationList a:hover,
+    .NavigationList a.active {
+        background-color:rgb(19, 83, 167);
+        color: white;
+    }
+}
